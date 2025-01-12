@@ -1,7 +1,7 @@
 from django.shortcuts import render, HttpResponse
 from .forms import NameForm
+from .meetjoinattempt2 import Bot
 
-# Create your views here.
 def get_name(request):
     if request.method == "GET":
         form = NameForm(request.GET)
@@ -10,9 +10,8 @@ def get_name(request):
             company = form.cleaned_data["company"]
             meet = form.cleaned_data["link"]
             
-            print(name)
-            print(company)
-            print(meet)
+            bot_instance = Bot()
+            bot_instance.runBot(meet_link=meet)
         else:
             form = NameForm()
 
