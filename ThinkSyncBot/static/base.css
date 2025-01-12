@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  header {
+    background-color: #F4CE14;
+    color: #010101;
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+  
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: auto;
+  
+    font-size: 300%;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .main {
+    background-color: #010101;
+    color: #F6E0B3;
+    padding: auto;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  
+    text-align: center;
+  
+    align-content: center;
+  
+    width: 100%;
+    height: 100%;
+  }
+  
+  .main * {
+    animation: transitionIn 1s;
+  }
+  
+  .intro-img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 5rem;
+  
+    text-align: left;
+    
+    width: 100% ;
+    font-family: "Lato", serif;
+    font-weight: 500;
+    padding: auto;
+    margin: auto;
+    margin-bottom:5rem;
+  }
+  .intro {
+    max-width: 40%;
+    text-align: justify;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .intro h1 {
+    font-size: 2.75rem;
+  }
+  .intro p {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 20px;
+    word-spacing: 10px;
+  }
+  
+  .p-color {
+    color: #EB596E;
+    font-family: "Lato", serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  
+  
+  img {
+    width: 20rem;
+    height: auto;
+  }
+  
+  span {
+    color: #EEEEEE;
+  }
+  
+  button {
+    margin-top: 3rem;
+    height: 3rem;
+    width: 9rem;
+    padding: 5px;
+  
+    font-family: 'Poppins', serif;
+    font-size: larger;
+    color: #EEEEEE;
+    background-color: #181717;
+    border: 2px solid #FFC26F;
+    border-radius: 30px;
+  
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #2A3335;
+  }
+
+  form {
+    margin-top: 3rem;
+    font-family: 'Lato', serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #EB596E;
+  }
+  form * {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  form input {
+    width: 20%;
+    background-color: #2A3335;
+    border: 2px solid #FFC26F;
+    border-radius: 10px;
+    color: #EEEEEE;
+    height: 1.25rem;
+    font-size: medium;
+    font-weight: 200;
+  }
+  
+  @keyframes transitionIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to{
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  
+  
+  
+  
+  
+  
